@@ -33,6 +33,8 @@ namespace CriticizeIt.Models
         public DbSet<Salary> Salaries { get; set; }
         public DbSet<Request> Requests { get; set; }
         public DbSet<Upvote> Upvotes { get; set; }
+       // public DbSet<RefreshToken> RefreshTokens { get; set; }
+
 
 
     }

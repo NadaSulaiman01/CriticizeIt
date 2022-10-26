@@ -9,5 +9,6 @@
         public List<Salary>? Salaries { get; set; }
         public List<Request>? Requests { get; set; }
         public List<Upvote>? Upvotes { get; set; }
+        public List<RefreshToken>? RefreshTokens { get; set; }
     }
 }
