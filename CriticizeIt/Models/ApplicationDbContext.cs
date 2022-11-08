@@ -15,6 +15,7 @@ namespace CriticizeIt.Models
             base.OnModelCreating(builder);
             new RatingEntityTypeConfiguration().Configure(builder.Entity<Rating>());
             new UpvoteEntityTypeConfiguration().Configure(builder.Entity<Upvote>());
+            new ApplicationUserEntityTypeConfiguration().Configure(builder.Entity<ApplicationUser>());
         }
 
         //protected override void OnModelCreating(ModelBuilder builder)

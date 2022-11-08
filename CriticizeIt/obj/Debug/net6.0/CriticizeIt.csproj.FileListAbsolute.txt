@@ -70,3 +70,6 @@ C:\Users\Nadas\source\repos\CriticizeIt\CriticizeIt\obj\Debug\net6.0\refint\Crit
 C:\Users\Nadas\source\repos\CriticizeIt\CriticizeIt\obj\Debug\net6.0\CriticizeIt.pdb
 C:\Users\Nadas\source\repos\CriticizeIt\CriticizeIt\obj\Debug\net6.0\CriticizeIt.genruntimeconfig.cache
 C:\Users\Nadas\source\repos\CriticizeIt\CriticizeIt\obj\Debug\net6.0\ref\CriticizeIt.dll
+C:\Users\Nadas\source\repos\CriticizeIt\CriticizeIt\bin\Debug\net6.0\MailKit.dll
+C:\Users\Nadas\source\repos\CriticizeIt\CriticizeIt\bin\Debug\net6.0\MimeKit.dll
+C:\Users\Nadas\source\repos\CriticizeIt\CriticizeIt\bin\Debug\net6.0\BouncyCastle.Crypto.dll
