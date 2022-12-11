@@ -1,0 +1,18 @@
+{
+  "companies": [
+    { "id": 1, "name": "Esraa" },
+    { "id": 2, "name": "Menna" },
+    { "id": 3, "name": "Amira" },
+    { "id": 4, "name": "Salwa" },
+    { "id": 5, "name": "Shaimaa" },
+    { "id": 6, "name": "Manar" },
+    { "id": 7, "name": "Mayar" },
+    { "id": 8, "name": "Habiba" },
+    { "id": 9, "name": "Hanaa" },
+    { "id": 10, "name": "Fatma" },
+    { "id": 11, "name": "Ebtisam" }
+  ],
+  "total": 11,
+  "skip": 0,
+  "limit": 11
+}

@@ -1,0 +1,27 @@
+/****************/
+/* HERO SECTION */
+/****************/
+
+.back-hero {
+  /* background-color: #efe6e8; */
+}
+
+.hero-section {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 7.2rem;
+}
+
+.hero-description {
+  font-size: 1.8rem;
+  color: #555;
+}
+
+.hero-img {
+  width: 100%;
+}
