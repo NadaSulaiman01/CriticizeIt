@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
 
 // Components
@@ -13,6 +14,8 @@ import Companies from "./pages/Companies/Companies";
 import Salaries from "./pages/Salaries/Salaries";
 import AddCompany from "./pages/AddCompany/AddCompany";
 import ErrorPage from "./pages/ErrorPage/ErrorPage";
+import Forget from "./pages/Forget/Forget";
+import Reset from "./pages/Reset/Reset";
 
 // Routing
 const routes = createBrowserRouter([
@@ -28,6 +31,8 @@ const routes = createBrowserRouter([
       { path: "companies", element: <Companies /> },
       { path: "salaries", element: <Salaries /> },
       { path: "add-company", element: <AddCompany /> },
+      { path: "forget", element: <Forget /> },
+      { path: "reset", element: <Reset /> },
     ],
   },
 ]);

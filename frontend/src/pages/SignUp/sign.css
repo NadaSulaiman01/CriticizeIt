@@ -1,0 +1,66 @@
+div .border {
+  margin: 4rem auto;
+  padding: 10rem auto;
+}
+
+.form-control {
+  font-size: 1.7rem;
+}
+
+.form-select {
+  font-size: 1.7rem;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #a6445d;
+  box-shadow: 0 0 0 0.2rem rgba(193, 68, 99, 0.42);
+}
+
+h3 {
+  color: rgba(135, 20, 49, 0.633);
+  font-size: 4rem;
+  margin-bottom: 4rem;
+  padding-top: 3rem;
+}
+
+h2 {
+  color: #888;
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  padding-top: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.button {
+  background: rgba(135, 20, 49, 0.633);
+  border-color: rgba(193, 68, 99, 0.42);
+  font-size: 1.7rem;
+  /* margin: 2rem auto 4rem auto; */
+}
+
+.button:hover {
+  background: rgba(204, 113, 135, 0.722);
+  border-color: rgba(204, 113, 135, 0.722);
+}
+
+.checkbox {
+  font-size: 1.4rem;
+  padding-left: 4rem;
+  padding-top: 2rem;
+}
+
+.account {
+  font-size: 1.4rem;
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+
+.account span a {
+  color: #b5425d;
+  text-decoration: underline;
+}
+
+.account span:hover {
+  cursor: pointer;
+}
