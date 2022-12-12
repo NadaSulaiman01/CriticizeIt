@@ -1,23 +1,19 @@
 /* 
 --- 01 TYPOGRAPHY SYSTEM
-
 - FONT SIZES (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24
 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
-
 - Font weights
 Default: 400
 Medium: 500
 Semi-bold: 600
 Bold: 700
-
 - Line heights
 Default: 1
 Small: 1.05
 Medium: 1.2
 Paragraph default: 1.6
 Large: 1.8
-
 - Letter Spacing
 -0.5px
 0.75px
@@ -27,22 +23,14 @@ Large: 1.8
 - Tints: #6f2033 #7f3949 #8f5160 #9f6a77 #af838e #bf9ca4 #cfb5bb #dfcdd2 #efe6e8
 - Shades: #560619 #4c0616 #430514 #390411 #30040e #26030b #1d0208
 - Grays: #333 #555 #6f6f6f #888
-
 --- 03 IMAGES
-
 --- 04 ICONS
-
 --- 05 SHADOWS
   0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
-
-
 --- 06 BORDER-RADIUS
-
 Default: 8px
 Medium: 11px
-
 --- 07 WHITESPACE
-
 - Spacing system (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 */
@@ -71,6 +59,7 @@ body {
   font-size: 1.8rem;
   line-height: 1.8;
   overflow-x: hidden;
+  position: relative;
 }
 
 code {
@@ -145,4 +134,38 @@ strong {
 /* ******* */
 .sm-margin {
   margin-bottom: 4.6rem;
+}
+
+/* ******** */
+/* QUERIES */
+/* ******** */
+
+/* Bellow 1035px */
+@media (max-width: 1035px) {
+  .heading-primary {
+    font-size: 4.8rem;
+  }
+  html {
+    /* 9px / 16px = 0.5625 */
+    font-size: 56.25%;
+  }
+}
+
+/* Bellow 1000px */
+@media (max-width: 1000px) {
+  html {
+    /* 8px / 16px = 0.5*/
+    font-size: 50%;
+  }
+  .heading-primary {
+    font-size: 4.2rem;
+  }
+
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+
+  .heading-tertiary {
+    font-size: 2.4rem;
+  }
 }
