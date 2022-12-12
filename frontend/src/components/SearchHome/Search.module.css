@@ -94,3 +94,28 @@
 .companyLink:active {
   background-color: #eee;
 }
+
+/* ***************** */
+/* RESPONSIVE SCREEN */
+/* ***************** */
+
+/* Bellow 1000px */
+@media (max-width: 1000px) {
+  .searchContainer {
+    width: 60rem;
+  }
+
+  .searchSection {
+    margin: 7rem auto;
+  }
+}
+
+/* Bellow 670px */
+@media (max-width: 670px) {
+  .searchContainer {
+    width: 35rem;
+  }
+  .dataResults {
+    max-width: 35rem;
+  }
+}
