@@ -10,6 +10,7 @@
   max-width: 120rem;
   margin: 0 auto;
   padding: 0 3.2rem;
+  padding-top: 3.2rem;
 
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -24,4 +25,38 @@
 
 .hero-img {
   width: 100%;
+}
+
+/* ******* */
+/* QUERIES */
+/* ******* */
+
+/* Bellow 1040px */
+@media (max-width: 1040px) {
+  .hero-section {
+    max-width: 100rem;
+    padding: 3.2rem;
+  }
+}
+
+/* Bellow 1000px */
+@media (max-width: 1000px) {
+  .hero-section {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    max-width: 90rem;
+    padding-top: 5.2rem;
+    text-align: center;
+  }
+
+  .hero-img {
+    width: 60%;
+  }
+}
+
+/* Bellow 670px */
+@media (max-width: 670px) {
+  .hero-img {
+    width: 70%;
+  }
 }
