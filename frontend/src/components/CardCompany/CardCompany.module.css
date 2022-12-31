@@ -1,0 +1,68 @@
+.CardContainer {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 5px 5px rgba(51, 51, 51, 0.2);
+  padding: 3.2rem 2.4rem 1rem 2.4rem;
+  display: flex;
+  flex-direction: column;
+  /* gap: 2.4rem; */
+}
+
+.CardContainer:hover {
+  box-shadow: 0 1rem 1rem rgba(51, 51, 51, 0.233);
+  /* box-shadow: 0 8px 10px #c4c7cc; */
+}
+
+.headerBox {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+  margin-bottom: 2.4rem;
+}
+
+.companyImg {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.nameAndRatingBox {
+  align-self: center;
+}
+
+.companyName {
+  color: #333;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.ratingBox {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  /* color: #fab005; */
+  /* color: #f08c00; */
+  color: #e67700;
+}
+
+.industryBox {
+  margin-left: auto;
+}
+
+.discriptionBox {
+}
+
+.description,
+.industry {
+  font-size: 1.6rem;
+  font-weight: 500;
+  /* line-height: 1.6rem; */
+  margin: 0;
+  color: #333;
+}
+
+.descriptionText,
+.industryText {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
