@@ -14,6 +14,7 @@
 .header.fixedNav {
   height: 7rem;
   position: fixed;
+  top: 0;
   box-shadow: 0 1rem 1.5rem rgba(51, 51, 51, 0.15);
   background-color: #fff;
   transition: all 0.3s ease-in-out;
