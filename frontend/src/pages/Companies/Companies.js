@@ -1,28 +1,33 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useState } from "react";
 import styles from "./Companies.module.css";
 import CardCompany from "../../components/CardCompany/CardCompany";
+import SearchCompany from "../../components/SearchCompany/SearchCompany";
 
 export default function Companies() {
+  // const [companies, setCompanies] = useState([]);
+
   return (
     <Fragment>
       <div className={styles.companiesContainer}>
         <div className={styles.companiesLayout}>
-          <div className={`${styles.imageContainer} ${styles.el1}`}>
+          <div className={`${styles.el1} ${styles.imageContainer}`}>
             <img
               className={styles.searchImage}
-              src={require("../../imgs/companies/search.png")}
-              alt="search"
+              src={require("../../imgs/companies/searching3.png")}
+              alt="a man searching online"
             ></img>
           </div>
           <div className={`${styles.el2} ${styles.textBox}`}>
-            <p className="heading-tertiary">Company searching made easy</p>
+            <p className={styles.headingCompany}>Company searching made easy</p>
             <p>
-              CriticiseIt helps you in your job search in Egypt. You can search
-              for a company and know its pros and cons before you make your next
-              move. Filter companies based on your needs.
+              CriticiseIt helps you to search for companies in Egypt to know its
+              pros and cons before you make your next move. Filter companies
+              based on your needs.
             </p>
           </div>
-          <div className={styles.el3}></div>
+          <div className={styles.el3}>
+            <SearchCompany />
+          </div>
 
           <div className={styles.el4}>
             <CardCompany />
