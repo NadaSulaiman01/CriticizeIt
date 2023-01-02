@@ -2,6 +2,7 @@ import React, { Fragment, useState } from "react";
 import styles from "./Companies.module.css";
 import CardCompany from "../../components/CardCompany/CardCompany";
 import SearchCompany from "../../components/SearchCompany/SearchCompany";
+import FilterCompanies from "../../components/FilterCompanies/FilterCompanies";
 
 export default function Companies() {
   // const [companies, setCompanies] = useState([]);
@@ -32,7 +33,9 @@ export default function Companies() {
           <div className={styles.el4}>
             <CardCompany />
           </div>
-          <div className={styles.el5}></div>
+          <div className={`${styles.el5} ${styles.filterBox}`}>
+            <FilterCompanies />
+          </div>
         </div>
       </div>
     </Fragment>
